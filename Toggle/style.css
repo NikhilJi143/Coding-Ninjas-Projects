@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+}
+  
+.dark-mode {
+    background-color: #000;
+    color: #fff;
+}
+  
+.light-mode {
+    background-color: #fff;
+    color: #000;
+}
+
+#toggle{
+    background-color: black;
+    color: black;
+}
+
+#container{
+    margin-top: 5%;
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.toggle{
+    background-color: white;
+    border: 2px solid black;
+    height: 40px;
+    width: 130px;
+    border-radius: 30px;
+    position: relative;
+    left: 38rem;
+    cursor: pointer;
+}
+
+.toggle.active #toggle-button{
+    margin-left: 92px;
+}
+
+#toggle-button{
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 3px;
+}
